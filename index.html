@@ -58,8 +58,8 @@
 
  <!-- ToDo 10: Output an <ul> of array elements of your choice. Also print the index of each element. -->
  <ul>
-   <li v-for="item in tastyBands">
-     {{ item }}
+   <li v-for="(item, index) in tastyBands">
+     {{ item }} | {{ index }}
    </li>
  </ul>
  </div>
